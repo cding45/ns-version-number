@@ -1,5 +1,10 @@
-import { Common } from './ns-version-number.common';
+import * as application from "tns-core-modules/application";
 
-export class NsVersionNumber extends Common {
-
+export class VersionNumber {
+    get() {
+        var PackageManager = android.content.pm.PackageManager;
+        var pkg = application.android.context.getPackageManager().getPackageInfo(application.android.context.getPackageName(),
+            PackageManager.GET_META_DATA);
+        return "Version === " + pkg.versionName;
+    }
 }

@@ -1,6 +1,3 @@
-import { Common } from './ns-version-number.common';
-export declare class NsVersionNumber extends Common {
-  // define your typings manually
-  // or..
-  // take the ios or android .d.ts files and copy/paste them here
+export declare class VersionNumber {
+  get(): string;
 }

@@ -1,5 +1,6 @@
-import { Common } from './ns-version-number.common';
-
-export class NsVersionNumber extends Common {
-
+export class VersionNumber {
+    get() {
+        var version = NSBundle.mainBundle.objectForInfoDictionaryKey("CFBundleShortVersionString");
+        return "Version ==== " + version;
+    }
 }

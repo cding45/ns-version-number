@@ -1,5 +1,5 @@
-import { NsVersionNumber } from 'ns-version-number';
-console.log(new NsVersionNumber().message);
+import { VersionNumber } from 'ns-version-number';
+console.log(new VersionNumber().get());
 /*
 In NativeScript, a file with the same name as an XML file is known as
 a code-behind file. The code-behind is a great place to place your view

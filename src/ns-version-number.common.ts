@@ -17,7 +17,7 @@ export class Common extends Observable {
 
 export class Utils {
   public static SUCCESS_MSG(): string {
-    let msg = `Your plugin is working on ${app.android ? 'Android' : 'iOS'}.`;
+    let msg = `This wonderful plugin is working on ${app.android ? 'Android' : 'iOS'}.`;
 
     setTimeout(() => {
       dialogs.alert(`${msg} For real. It's really working :)`).then(() => console.log(`Dialog closed.`));

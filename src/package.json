@@ -1,5 +1,5 @@
 {
-	"name": "nativescript-ns-version-number",
+	"name": "ns-version-number",
 	"version": "1.0.0",
 	"description": "Your awesome NativeScript plugin.",
 	"main": "ns-version-number",
@@ -12,7 +12,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/cding45/nativescript-ns-version-number.git"
+		"url": "https://github.com/cding45/ns-version-number.git"
 	},
 	"scripts": {
 		"tsc": "npm i && tsc",
@@ -27,7 +27,7 @@
 		"demo-angular.ios": "npm i && cd ../demo-angular && tns run ios",
 		"demo-angular.android": "npm i && cd ../demo-angular && tns run android",
 		"demo-angular.reset": "cd ../demo-angular && npx rimraf -- hooks node_modules platforms package-lock.json",
-		"plugin.prepare": "npm run build && cd ../demo && tns plugin remove nativescript-ns-version-number && tns plugin add ../src && cd ../demo-angular && tns plugin remove nativescript-ns-version-number && tns plugin add ../src",
+		"plugin.prepare": "npm run build && cd ../demo && tns plugin remove ns-version-number && tns plugin add ../src && cd ../demo-angular && tns plugin remove ns-version-number && tns plugin add ../src",
 		"clean": "npm run demo.reset && npm run demo-angular.reset && npx rimraf -- node_modules package-lock.json && npm i"
 	},
 	"keywords": [
@@ -37,14 +37,14 @@
 		"iOS"
 	],
 	"author": {
-		"name": "Your Name",
-		"email": "youremail@yourdomain.com"
+		"name": "Changmin Ding",
+		"email": "changmin.ding@gdit.com"
 	},
 	"bugs": {
-		"url": "https://github.com/cding45/nativescript-ns-version-number/issues"
+		"url": "https://github.com/cding45/ns-version-number/issues"
 	},
 	"license": "Apache-2.0",
-	"homepage": "https://github.com/cding45/nativescript-ns-version-number",
+	"homepage": "https://github.com/cding45/ns-version-number",
 	"devDependencies": {
 		"tns-core-modules": "^6.0.0",
 		"tns-platform-declarations": "^6.0.0",

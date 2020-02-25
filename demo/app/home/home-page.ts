@@ -1,4 +1,4 @@
-import { NsVersionNumber } from 'nativescript-ns-version-number';
+import { NsVersionNumber } from 'ns-version-number';
 console.log(new NsVersionNumber().message);
 /*
 In NativeScript, a file with the same name as an XML file is known as

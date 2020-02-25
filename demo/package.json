@@ -13,7 +13,7 @@
   "repository": "<fill-your-repository-here>",
   "dependencies": {
     "@nativescript/theme": "~2.2.1",
-    "nativescript-ns-version-number": "file:../src",
+    "ns-version-number": "file:../src",
     "tns-core-modules": "~6.3.0"
   },
   "devDependencies": {

@@ -1,5 +1,5 @@
-import { NsVersionNumber } from 'nativescript-ns-version-number';
-console.log(new NsVersionNumber().message);
+import { VersionNumber } from 'ns-version-number';
+console.log(new VersionNumber().get());
 import { Component } from "@angular/core";
 
 @Component({
